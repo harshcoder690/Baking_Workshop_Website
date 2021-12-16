@@ -47,7 +47,6 @@ def submit():
             db.session.add(attendee)
             db.session.commit()
 
-            # fetch a certain student2
             studentResult = db.session.query(Attendee.fname)
 
             for result in studentResult:
