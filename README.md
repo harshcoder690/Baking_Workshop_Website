@@ -33,14 +33,14 @@ Download VScode from [here](https://code.visualstudio.com/).
 
 
 ## Installation
-1. Create your own virtual envirnment:
+1. Create your own virtual environment:
 ```ruby
 pip install virtualenv
 virtualenv env
 ```
 2. Enter your virtual environment:
 ```ruby
-\env\Scripts\activate.ps1
+.\env\Scripts\activate.ps1
 ```
 3. Install flask:
 ```ruby
