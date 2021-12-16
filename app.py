@@ -47,9 +47,9 @@ def submit():
             db.session.add(attendee)
             db.session.commit()
 
-            studentResult = db.session.query(Attendee.fname)
+            attendeeResult = db.session.query(Attendee.fname)
 
-            for result in studentResult:
+            for result in attendeeResult:
                 return render_template('success.html', data=fname)
 
 
