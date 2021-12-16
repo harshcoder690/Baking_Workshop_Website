@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/attendee.css">
+</head>
+
+<body>
+    <img class="leaft" src="static/photos/leafT.png" alt="">
+    <div class="container">
+        <div class="board">
+            <img class="board" src="static/photos/HEADER.png" alt="">
+        </div>
+        <ul class="responsive-table">
+            {% for item in data %}
+            <li class="table-row">
+                <div class="col col-1">
+                    {{ item.fname.upper() }}
+                </div>
+            </li>
+            {% endfor %}
+
+        </ul>
+    </div>
+    <img class="leafb" src="static/photos/leafB.png" alt="">
+
+</body>
+
+</html>

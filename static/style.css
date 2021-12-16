@@ -1,0 +1,214 @@
+/* navbar */
+
+.ord {
+    padding-top: 8px !important;
+}
+
+
+/* background image of carousal */
+
+.container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 700px;
+}
+
+.caro_img {
+    width: 50%;
+    height: 50%;
+}
+
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    align-self: left;
+}
+
+.carousel .carousel-indicators {
+    position: absolute;
+    right: 50%;
+}
+
+
+/* carousal caption */
+
+.learn {
+    margin-bottom: 18%;
+}
+
+.body-text {
+    font-family: 'Pacifico', cursive;
+    line-height: 2;
+}
+
+.head {
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem !important;
+    margin-bottom: 6% !important;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+/* Footer section */
+
+#contact {
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+    background-color: #f0f0f0;
+}
+
+.footer .icons {
+    padding: 0 100px;
+}
+
+.footer .icons i {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.card-deck {
+    /* background-color: #696969!important; */
+    margin: 2rem !important;
+}
+
+.ccworkshop {
+    background-color: #f0f0f0!important;
+}
+
+
+/* workshop card */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
+#workshop {
+    box-shadow: 0 15px 30px 1px grey;
+    background: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5em auto;
+    height: 450px;
+    width: 700px;
+}
+
+p {
+    text-align: left !important;
+}
+
+.product-details {
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    padding: 30px;
+    height: 100%;
+    float: left;
+    width: 40%;
+}
+
+#workshop .product-details h1 {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    color: #344055;
+    margin: 0;
+}
+
+#workshop .product-details h1:before {
+    position: absolute;
+    content: '';
+    right: 0%;
+    top: 0%;
+    transform: translate(25px, -15px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    background: #ffe6e6;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    color: white;
+    margin: 0;
+    animation: chan-sh 6s ease infinite;
+}
+
+.hint-star {
+    display: inline-block;
+    margin-left: 0.5em;
+    color: gold;
+    width: 50%;
+}
+
+#workshop .product-details>p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+
+.control {
+    position: absolute;
+    bottom: 20%;
+    left: 22.8%;
+}
+
+.product-image {
+    transition: all 0.3s ease-out;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    float: right;
+    width: 45%;
+    display: inline-block;
+}
+
+#workshop img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    background: rgba(27, 26, 26, 0.9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s ease-out;
+    transform: translateX(-100%);
+    position: absolute;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 105%;
+    cursor: no-drop;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.info h2 {
+    text-align: center
+}
+
+.product-image:hover .info {
+    transform: translateX(0);
+}
+
+.info ul li {
+    transition: 0.3s ease;
+}
+
+.info ul li:hover {
+    transform: translateX(50px) scale(1.3);
+}
+
+.product-image:hover img {
+    transition: all 0.3s ease-out;
+}
+
+.product-image:hover img {
+    transform: scale(1.2, 1.2);
+}

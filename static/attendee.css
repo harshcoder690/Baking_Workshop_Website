@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+* {
+    outline: none !important;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+    position: relative;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    margin-right: 0px !important;
+}
+
+.MuiPaper-root {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.board {
+    margin-bottom: 50px;
+}
+
+.leaft,
+.leafb {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.leaft {
+    top: 0;
+}
+
+.leafb {
+    bottom: 0;
+}
+
+.container {
+    align-items: center !important;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.table-header {
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.table-row {
+    background-color: #ffffff;
+    text-align: center !important;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.col-1 {
+    flex-basis: 10%;
+    text-align: center;
+}
+
+@media all and (max-width: 767px) {
+    .table-header {
+        display: none;
+    }
+    .table-row {}
+    li {
+        display: block;
+    }
+    .col {
+        flex-basis: 100%;
+    }
+    .col {
+        display: flex;
+        padding: 10px 0;
+    }
+}

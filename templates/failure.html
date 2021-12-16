@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>Failure</title>
+
+    <!-- Stylesheets -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/signup.css"> -->
+
+    <!-- Bootstrap scripts -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        @media(max-width: 525px) {
+            h1 {
+                font-size: 60px !important;
+            }
+            img {
+                width: 100px;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="text-center d-flex align-items-center justify-content-center" style="height: 100vh;">
+
+    <div class="container">
+        <img class="mb-4" src="static/photos/failure.png" alt="" width="200px">
+        <h1 class="display-1">Uh oh!</h1>
+        <p class="lead">There was a problem signing you up. Please try again or contact the developer!</p>
+
+        <form action="/register" method="post">
+            <button type="submit" class="btn btn-lg btn-warning">Try Again</button>
+        </form>
+    </div>
+</body>
+
+</html>

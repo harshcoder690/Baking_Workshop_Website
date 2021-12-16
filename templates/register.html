@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap scripts -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="static/register.css">
+</head>
+
+<body>
+    <img src="static/Images/pic2.jpg" alt="">
+    <div class="login-root">
+        <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+            <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+                <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+                    <h1><a href="/" rel="dofollow">BakerHouse</a></h1>
+                </div>
+                <div class="formbg-outer">
+                    <div class="formbg">
+                        <div class="formbg-inner padding-horizontal--48">
+                            <span class="padding-bottom--15">Register for workshop now!</span>
+                            <form id="stripe-login" action="/submit" method="post">
+                                <div class="field padding-bottom--24">
+                                    <label for="title">Name</label>
+                                    <input type="text" class="form-control" id="title" name="fname" placeholder="Name">
+                                </div>
+                                <div class="field padding-bottom--24">
+                                    <label for="mail">Email</label>
+                                    <input type="email" class="form-control" id="mail" name="email" placeholder="abc@gmail.com">
+                                </div>
+                                <div class="field padding-bottom--24">
+                                    <input type="submit" name="submit" value="REGISTER NOW">
+                                </div>
+                                <div class="field field-checkbox padding-bottom--24 flex-flex align-center">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
