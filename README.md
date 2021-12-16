@@ -28,6 +28,7 @@ cd Baking_Workshop_Website
 ## Prerequisite
 
 Download latest version of python from [here](https://www.python.org/downloads/).
+<br>
 Download VScode from [here](https://code.visualstudio.com/).
 
 
@@ -70,3 +71,7 @@ python .\app.py
 ### Attendee Page
 
 ![Attendee_page](https://user-images.githubusercontent.com/71275600/146410697-f0b67aa0-5e6d-4e3a-95f7-5e400c098d8a.png)
+
+## Support
+
+Do support and give a star :star:
